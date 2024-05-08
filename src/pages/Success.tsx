@@ -1,10 +1,10 @@
-import React from "react";
-import { StBody } from "./Home";
-import Button from "../component/Button";
-import { useNavigate } from "react-router-dom";
+import React from 'react'
+import { StBody } from './Home'
+import Button from '../component/Button'
+import { useNavigate } from 'react-router-dom'
 
 const Success = () => {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
 
   return (
     <StBody>
@@ -13,7 +13,7 @@ const Success = () => {
         <Button text="back to Home" onClick={() => navigate(`/`)} />
       </div>
     </StBody>
-  );
-};
+  )
+}
 
-export default Success;
+export default Success

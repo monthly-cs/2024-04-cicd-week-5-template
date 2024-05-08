@@ -1,14 +1,14 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
-import styled from "styled-components";
-import Button from "../component/Button";
+import React from 'react'
+import { useNavigate } from 'react-router-dom'
+import styled from 'styled-components'
+import Button from '../component/Button'
 
 const Home = () => {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
 
   const throwError = () => {
-    throw new Error("Intentional Error!");
-  };
+    throw new Error('Intentional Error!')
+  }
 
   return (
     <StBody>
@@ -17,8 +17,8 @@ const Home = () => {
         <Button text="make Error" onClick={() => throwError()} />
       </div>
     </StBody>
-  );
-};
+  )
+}
 
 export const StBody = styled.div`
   display: grid;
@@ -29,6 +29,6 @@ export const StBody = styled.div`
     display: grid;
     gap: 20px;
   }
-`;
+`
 
-export default Home;
+export default Home

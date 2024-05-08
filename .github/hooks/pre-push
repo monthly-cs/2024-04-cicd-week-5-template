@@ -1,5 +1,7 @@
 #!/bin/sh
 
-echo "pre-receive는 신규 브런치의 git push origin <branch_name> 시에 실행됩니다."
-echo "pre-receive는 신규 브런치의 git push origin <branch_name> 시에 실행됩니다."
-echo "pre-receive는 신규 브런치의 git push origin <branch_name> 시에 실행됩니다."
+echo "pre-receive는 신규 브런치의 git push origin <branch_name> 시에 실행됩니다. 888"
+echo "pre-receive는 신규 브런치의 git push origin <branch_name> 시에 실행됩니다. 444"
+echo "pre-receive는 신규 브런치의 git push origin <branch_name> 시에 실행됩니다. 444"
+
+npx prettier --write .

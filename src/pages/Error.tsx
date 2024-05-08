@@ -1,10 +1,10 @@
-import React from "react";
-import { StBody } from "./Home";
-import { useNavigate } from "react-router-dom";
-import Button from "../component/Button";
+import React from 'react'
+import { StBody } from './Home'
+import { useNavigate } from 'react-router-dom'
+import Button from '../component/Button'
 
 const Error = () => {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
 
   return (
     <StBody>
@@ -13,7 +13,7 @@ const Error = () => {
         <Button text="back to Home" onClick={() => navigate(`/`)} />
       </div>
     </StBody>
-  );
-};
+  )
+}
 
-export default Error;
+export default Error
